@@ -79,7 +79,7 @@
  .item {
      display: none;
      position: relative;
-     .transition(s ease-in-out left);
+     transition:(s ease-in-out left);
 }
  .slider-contant h1 {
      font-size: 48px;
@@ -87,7 +87,7 @@
      margin-top: 300px;
      text-shadow: none;
      color: rgb(231, 214, 214);
-     text-align: center;
+     text-align: left;
      line-height: 68px;
      letter-spacing: -2px;
 }
@@ -113,7 +113,8 @@
      text-transform: uppercase;
      min-width: 160px;
      height: 50px;
-     border-radius: 5px;
+     border-radius: 10px;
+     margin-right: 40px;
 }
  .btn.btn-primary.btn-lg:hover,.btn.btn-primary.btn-lg:focus {
      background:#df4006;
@@ -414,7 +415,6 @@
      font-style: italic;
      font-weight: 300;
      font-size: 18px;
-     background: ;
      border: solid #df4006 2px;
 }
  .search-bar {
@@ -1220,7 +1220,7 @@ section#contant h4 {
      left: auto;
      height: 100%;
      line-height: 58px;
-     background: #d8302f;
+     background: #df4006;
      color: #fff;
      width: 48px;
      border: 0;
@@ -1244,7 +1244,7 @@ section#contant h4 {
      position: absolute;
      bottom: 100%;
      left: 0;
-     background: #d8302f;
+     background: #df4006;
      z-index: 1;
      padding: 3px 20px 2px;
      text-transform: capitalize;
@@ -1468,7 +1468,7 @@ body section#contant .post-info span h4 {
      padding: 0 0;
 }
  .btn {
-     float: left;
+     float: right;
      background: #df4006;
      color: #fff;
      padding: 10px 20px;
