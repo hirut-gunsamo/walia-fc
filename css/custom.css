@@ -898,7 +898,7 @@
      color: #d8302f !important;
 }
  .information h3 {
-     color: #222;
+     color: rgb(255, 248, 248);
      text-transform: none;
      font-weight: 600;
      font-size: 20px;
@@ -1012,7 +1012,7 @@
  .inner-information-text {
      float: left;
      width: 100%;
-     background: #111;
+     background: rgb(251, 246, 246);
      color: #fff;
 }
  .inner-information-text h3 {
@@ -1175,7 +1175,7 @@ section#contant h4 {
  .main-heading.sytle-2 h2::after {
      left: 100%;
 }
- .theme-padding.middle-bg {
+ .theme-padding.middle-bg {                                      
      padding-top: 100px;
      padding-bottom: 100px;
      background-image: url(../images/sport-mate.png);
@@ -1783,6 +1783,7 @@ body section#contant .post-info span h4 {
          position: relative;
          width: 100%;
          text-align: center;
+         background: #df4006;
     }
      .logo img {
          width: 160px;
@@ -2038,11 +2039,19 @@ body section#contant .post-info span h4 {
         font-weight: 700;
         letter-spacing: 1px;
         text-transform: uppercase;
+        color:#df4006;
       }
       #header .logo a {
         color: #fff;
       }
       #header .logo img {
         max-height: 40px;
+      }
+      .para{
+       font-size: 14px;
+       font-style: normal;
+       font: 1em sans-serif;
+       align-items: center;
+       flex-direction: row-reverse;
       }
 }
